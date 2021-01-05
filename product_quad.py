@@ -46,3 +46,5 @@ def prod_quad(N):
 
     return w[mu>0]/np.sum(w[mu>0]), eta[mu>0],xi[mu>0]
 print(prod_quad(4))
+w, eta, xi = prod_quad(4)
+print(np.sum(w))
